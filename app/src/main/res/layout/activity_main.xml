@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--Ejercicio 1-->
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--<TextView android:id="@+id/lblNombre"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Escribe aquí:"-->
+        <!--android:layout_alignParentTop="true"/>-->
+
+    <!--<EditText android:id="@+id/txtNombre"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="text"-->
+        <!--android:layout_below="@+id/lblNombre" />-->
+
+    <!--<Button android:id="@+id/btnCancelar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="CANCELAR"-->
+        <!--android:layout_below="@+id/txtNombre"/>-->
+
+    <!--<Button android:id="@+id/btnAceptar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="OK"-->
+        <!--android:layout_below="@+id/txtNombre"-->
+        <!--android:layout_toRightOf="@+id/btnCancelar"/>-->
+
+
+    <!--</RelativeLayout>-->
+
+
+<!--Ejercicio 2-->
+
+    <!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent" -->
+        <!--android:layout_height="match_parent">-->
+    <!---->
+    <!--<TableRow>-->
+        <!--<Button android:id="@+id/btn1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="1"/>-->
+        <!--<Button android:id="@+id/btn2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="2"/>-->
+        <!--<Button android:id="@+id/btn3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="3"/>-->
+    <!--</TableRow>-->
+    <!--<TableRow>-->
+        <!--<Button android:id="@+id/btn4"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="4"/>-->
+        <!--<Button android:id="@+id/btn5"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="5"/>-->
+        <!--<Button android:id="@+id/btn6"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="6"/>-->
+    <!--</TableRow>-->
+    <!--<TableRow>-->
+        <!--<Button android:id="@+id/btn7"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="7"/>-->
+        <!--<Button android:id="@+id/btn8"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="8"/>-->
+        <!--<Button android:id="@+id/btn9"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="9"/>-->
+    <!--</TableRow>-->
+<!--</TableLayout>-->
+
+
+    <!--Ejercicio3-->
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="1"/>-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="2"/>-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="3"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="4"/>-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="5"/>-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="6"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="7"/>-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="8"/>-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="9"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="0"/>-->
+
+        <!--</LinearLayout>-->
+
+         <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+
+             <!--<Button-->
+                 <!--android:layout_width="wrap_content"-->
+                 <!--android:layout_height="wrap_content"-->
+                 <!--android:layout_weight="1"-->
+                 <!--android:text="+"/>-->
+
+             <!--<Button-->
+                 <!--android:layout_width="wrap_content"-->
+                 <!--android:layout_height="wrap_content"-->
+                 <!--android:layout_weight="1"-->
+                 <!--android:text="-"/>-->
+
+             <!--<Button-->
+                 <!--android:layout_width="wrap_content"-->
+                 <!--android:layout_height="wrap_content"-->
+                 <!--android:layout_weight="1"-->
+                 <!--android:text="C"/>-->
+
+         <!--</LinearLayout>-->
+
+<!--</LinearLayout>-->
+
+<!--Ejercicio 4-->
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Texto1"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Texto2"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Texto3"/>-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Botón"/>-->
+
+
+
+<!--</LinearLayout>-->
+
+    <!--Ejercicio 5-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuario"
+                android:layout_marginTop="32dp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contraseña"
+                android:layout_marginTop="32dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BUTTON"/>
+        </LinearLayout>
+</LinearLayout>
